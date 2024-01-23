@@ -1,0 +1,23 @@
+package-lock.json
+
+# Node.js dependencies
+node_modules/
+
+# Compiled circuit files
+*.json
+
+# SnarkJS files
+*.r1cs
+*.zkey
+*.wtns
+proof.json
+verification_key.json
+
+# Powers of Tau files
+powersOfTau28_hez_final_*
+
+# Exclude all files with extension .ptau (specifically, Powers of Tau files)
+*.ptau
+
+# Symbolic execution trace files
+*.sym
